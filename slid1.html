@@ -1,0 +1,235 @@
+<html>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Qasim Sarwari" />
+    <meta name="description"
+        content="countMe.js is a jQuery plugin for counting numbers, very esay to use. created by Qasim Sarwari." />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" />
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".navBtn").click(function () {
+                // $('.closeList').css({ 'display': 'block' });
+                // $('.navBtn').css({ 'display': 'none' });
+                // $('.headerNav').css({ 'height': '50vh' });
+                $('.headerNav').toggle()
+
+            });
+            $(".closeList").click(function () {
+                // $('.closeList').css({ 'display': 'none' });
+                // $('.navBtn').css({ 'display': 'block' });
+                $('.headerNav').hide()
+
+
+                // $('section').click(function(){
+                //     $('.headerNav').fadeOut()
+
+                // })
+            });
+
+            //   $("body").click(function(){
+            //     $('.headerNav').fadeIn()
+            // $('section').click(function(){
+            //     $('.headerNav').fadeOut()
+
+            // })
+            // });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(window).scrollTop()) {
+                    $('.logo').css({ 'max-height': '40' });
+
+
+                } else {
+                    $('.logo').css({ 'max-height': '60' });
+
+                }
+                if ($(window).scrollTop()) {
+
+                    $(".header").addClass("header1");
+                    //    $('.header').css({'border-bottom': ' 10px solid #dee2e6 '}); 
+                } else {
+
+                    $(".header").addClass("header");
+                    $(".header").removeClass("header1");
+
+                }
+
+                if ($(window).scrollTop()) {
+                    // $("#click").css({'background-color': ' green '});
+                    $("#click").addClass("contact11");
+
+                } else {
+                    $("#click").addClass("contact12");
+                    $("#click").removeClass("contact11");
+                    // $("#click").css({'background-color': ' red'});
+
+
+
+
+
+                }
+
+            });
+
+
+
+
+
+        });
+
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <meta name="description"
+        content="countMe.js is a jQuery plugin for counting numbers, very esay to use. created by Qasim Sarwari." />
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+    <script src="js/countMe/countMe.min.js"></script>
+    <script>
+        window.onload = () => {
+            // $(selector).countMe(delay,speed)
+            // $("#num1").countMe(40,65);
+            // $("#num2").countMe(20, 10);
+            // $("#num3").countMe(40, 50);
+            // $("#num4").countMe(100,200);
+            $("#num1").countMe(5, 5);
+            $("#num2").countMe(3, 1);
+            $("#num3").countMe(5, 5);
+            $("#num4").countMe(5, 5);
+        }
+    </script>
+
+    <title>
+        Children's Auther
+    </title>
+    <!-- <link rel="stylesheet" type="text/css" href="css/index.css" /> -->
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+
+</head>
+
+<body>
+    <sction>
+        <div class="main header">
+
+            <div class="wrapper">
+                <div class="d-flex "  >
+                    <img src="../Children's Auther/images/headerLogo.webp" class="logo" />
+                    <div class="header-navigation">
+                        <ul>
+                            <li>
+                                <a>HOME</a>
+                            </li>
+                            <li>
+                                <a>ABOUT ME</a>
+                            </li>
+                            <li>
+                                <a>FREEBIES</a>
+                            </li>
+                            <li>
+                                <a>BOOKS</a>
+                            </li>
+                            <li>
+                                <a>CONTACT</a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </sction>
+    <sction>
+        <div class="main" id="bannerSlider">
+
+            <div class="wrapper">
+                <div class="d-flex">
+                    <div>
+                        <img src="../Children's Auther/images/slid1.png" class="sliderImg" />
+                    </div>
+                    
+                    <div class="bannerSliderText">
+                        <h2>
+                            La Gratitud es mi are my Superpoder
+                        </h2>
+                        <p>
+                            hjfhfhfhjfhffghfhg
+                            hfhfhhghfghfghfghfg
+                            hjghjgjhgjghjgjgjgjh<br/>
+                            hgjhghjgjhghjghjgjhg
+                            hjjghjgjhgjhghjghj
+                        </p>
+                        <p>
+                            hjfhfhfhjfhffghfhg
+                            hfhfhhghfghfghfghfg
+                            hjghjgjhgjghjgjgjgjh<br/>
+                            hgjhghjgjhghjghjgjhg
+                            hjjghjgjhgjhghjghj
+                        </p>
+                        <button class="sliderBtn">
+                            add me
+                        </button>
+                       
+                        
+
+                        
+                    </div>
+                    <div class="slideNav">
+                        <ul class="socialContactsList">
+                            <li class="socialItem"><i class="fa  fa-facebook-official" aria-hidden="true"></i></li>
+                            <li class="socialItem"><i class="fa fa-twitter" aria-hidden="true"></i></li>
+                            <li class="socialItem"><i class="fa fa-instagram" aria-hidden="true"></i></li>
+                            <li class="socialItem"><i class="fa fa-youtube-play" aria-hidden="true"></i></li>
+                            <li class="socialItem"><i class="fa fa-linkedin" aria-hidden="true"></i></li>
+        
+                        </ul>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </sction>
+    <sction>
+        <div class="main">
+
+            <div class="wrapper">
+                <div class="d-flex">
+
+                    <h2>content1</h2>
+                    <h2>content2</h2>
+                </div>
+            </div>
+        </div>
+    </sction>
+    <sction>
+        <div class="main">
+
+            <div class="wrapper">
+                <div class="d-flex">
+
+                    <h2>footer social icons</h2>
+                    <h2>footer Text</h2>
+                </div>
+            </div>
+        </div>
+    </sction>
+
+</body>
+
+</html>

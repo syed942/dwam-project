@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Qasim Sarwari" />
+    <meta name="description"
+        content="countMe.js is a jQuery plugin for counting numbers, very esay to use. created by Qasim Sarwari." />
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" />
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".navBtn").click(function () {
+                // $('.closeList').css({ 'display': 'block' });
+                // $('.navBtn').css({ 'display': 'none' });
+                // $('.headerNav').css({ 'height': '50vh' });
+                $('.headerNav').toggle()
+
+            });
+            $(".closeList").click(function () {
+                // $('.closeList').css({ 'display': 'none' });
+                // $('.navBtn').css({ 'display': 'block' });
+                $('.headerNav').hide()
+
+
+                // $('section').click(function(){
+                //     $('.headerNav').fadeOut()
+
+                // })
+            }); -->
+
+            <!-- //   $("body").click(function(){
+            //     $('.headerNav').fadeIn()
+            // $('section').click(function(){
+            //     $('.headerNav').fadeOut()
+
+            // })
+            // });
+        });
+    </script> -->
+    <!-- <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(window).scrollTop()) {
+                    $('.logo').css({ 'max-height': '40' });
+
+
+                } else {
+                    $('.logo').css({ 'max-height': '60' });
+
+                }
+                if ($(window).scrollTop()) {
+
+                    $(".header").addClass("header1");
+                    //    $('.header').css({'border-bottom': ' 10px solid #dee2e6 '}); 
+                } else {
+
+                    $(".header").addClass("header");
+                    $(".header").removeClass("header1");
+
+                }
+
+                if ($(window).scrollTop()) {
+                    // $("#click").css({'background-color': ' green '});
+                    $("#click").addClass("contact11");
+
+                } else {
+                    $("#click").addClass("contact12");
+                    $("#click").removeClass("contact11");
+                    // $("#click").css({'background-color': ' red'});
+
+
+
+
+
+                }
+
+            });
+
+
+
+
+
+        });
+
+    </script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <meta name="description"
+        content="countMe.js is a jQuery plugin for counting numbers, very esay to use. created by Qasim Sarwari." />
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+    <script src="js/countMe/countMe.min.js"></script>
+    <script>
+        window.onload = () => {
+            // $(selector).countMe(delay,speed)
+            // $("#num1").countMe(40,65);
+            // $("#num2").countMe(20, 10);
+            // $("#num3").countMe(40, 50);
+            // $("#num4").countMe(100,200);
+            $("#num1").countMe(5, 5);
+            $("#num2").countMe(3, 1);
+            $("#num3").countMe(5, 5);
+            $("#num4").countMe(5, 5);
+        }
+    </script> -->
+
+    <title>
+        Children's Auther
+    </title>
+    <!-- <link rel="stylesheet" type="text/css" href="css/index.css" /> -->
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+
+<style>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+    <section>
+        <div class="main" id="bannerSlider">
+
+            <div class="wrapper">
+                
+    <div class="slideshow-container">
+    
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      
+      <div class="d-flex">
+                    <div>
+                        <img src="../Children's Auther/images/slid1.png" class="sliderImg" />
+                    </div>
+                    
+                    <div class="bannerSliderText">
+                        <h1 style="font-size: 28px; font-weight: 700;">
+                            Emotions are my super power
+                        </h1>
+                        <p>
+                            hjfhfhfhjfhffghfhg
+                            hfhfhhghfghfghfghfg
+                            hjghjgjhgjghjgjgjgjh<br/>
+                            hgjhghjgjhghjghjgjhg
+                            hjjghjgjhgjhghjghj
+                        </p>
+                        <p>
+                            hjfhfhfhjfhffghfhg
+                            hfhfhhghfghfghfghfg
+                            hjghjgjhgjghjgjgjgjh<br/>
+                            hgjhghjgjhghjghjgjhg
+                            hjjghjgjhgjhghjghj
+                        </p>
+                        <button class="sliderBtn">
+                            add me
+                        </button>
+                       
+                        
+    
+                        
+                    </div>
+                    <div class="slideNav">
+                        <ul class="socialContactsList">
+                            <li class="socialItem"><i class="fa  fa-facebook-official" aria-hidden="true"></i></li>
+                            <li class="socialItem"><i class="fa fa-twitter" aria-hidden="true"></i></li>
+                            <li class="socialItem"><i class="fa fa-instagram" aria-hidden="true"></i></li>
+                            <li class="socialItem"><i class="fa fa-youtube-play" aria-hidden="true"></i></li>
+                            <li class="socialItem"><i class="fa fa-linkedin" aria-hidden="true"></i></li>
+        
+                        </ul>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+      
+      
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="../Children's Auther/images/slid1.png" style="width:100%">
+      <div class="text">Caption Two</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="../Children's Auther/images/headerLogo.webp" style="width:100%">
+      <div class="text">Caption Three</div>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+
+    </section>
+    
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+window.onload = (event) => {
+
+    setInterval(()=>{
+    plusSlides(1)
+  },2000)
+  }
+ 
+</script>
+
+</body>
+</html> 
